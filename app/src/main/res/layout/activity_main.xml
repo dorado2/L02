@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:background="#CC0000"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="qa.global.l02.MainActivity">
+
+    <View
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:background="#CC0000"
+        android:id="@+id/verticalAxe"
+        />
+
+    <View
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:background="#CC0000"
+        android:id="@+id/horisontalAxe"
+        />
+
+    <RelativeLayout
+        android:background="#669900"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/verticalAxe"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/boxViewL"
+      >
+
+
+        <TextView
+            android:text="Some text"
+            android:background="#FFFFFF"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:id="@+id/textViewL0"
+            />
+
+        <TextView
+            android:text="Some text"
+            android:background="#FFFFFF"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:layout_below="@id/textViewL0"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:id="@+id/textViewL1"
+            />
+        <TextView
+            android:text="Some text"
+            android:background="#FFFFFF"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:layout_below="@id/textViewL1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:id="@+id/textViewL2"
+            />
+        <TextView
+            android:text="Some text"
+            android:background="#FFFFFF"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:layout_below="@id/textViewL2"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:id="@+id/textViewL3"
+            />
+
+</RelativeLayout>
+
+
+<!--<RelativeLayout-->
+<!--android:background="#669900"-->
+<!--android:layout_height="match_parent"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_alignParentRight="true"-->
+<!--android:layout_toRightOf = "@id/verticalAxe"-->
+<!--android:layout_marginTop="@dimen/activity_vertical_margin"-->
+<!--android:layout_marginBottom="@dimen/activity_vertical_margin"-->
+<!--android:layout_marginLeft="@dimen/activity_vertical_margin"-->
+<!--android:layout_marginRight="@dimen/activity_vertical_margin"-->
+<!--android:id="@+id/boxViewR">-->
+<!--</RelativeLayout>-->
+
+
+        </RelativeLayout>
